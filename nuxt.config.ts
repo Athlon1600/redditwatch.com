@@ -1,10 +1,14 @@
 import vuetify, {transformAssetUrls} from 'vite-plugin-vuetify'
+import { resolve } from "path";
 
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
     // https://nuxt.com/docs/getting-started/upgrade#new-directory-structure
     srcDir: 'app',
-    serverDir: '<rootDir>/server',
+    serverDir: resolve(__dirname, './server'),
+    dir: {
+        public: resolve(__dirname, './public')
+    },
     plugins: [
         '~/plugins/auth.ts', // Ensure this plugin is registered first
     ],
