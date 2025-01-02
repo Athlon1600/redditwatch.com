@@ -18,6 +18,7 @@ const state = reactive<AuthStore>({
     counter: 1
 });
 
+// https://github.com/matthewsmorrison/fire-dashboard/blob/54638e7ffe9936cd8c852f89c014def5594c2b3f/src/hooks/auth.ts#L22
 export function useAuthStore() {
 
     const isBusy = computed(() => state.isBusy);
