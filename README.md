@@ -6,6 +6,7 @@
 [![Nuxt.js](https://img.shields.io/badge/Nuxt.js-3.15.0-brightgreen.svg?style=flat-square)](https://nuxt.com/)
 [![Vue.js](https://img.shields.io/badge/Vue.js-3.x-brightgreen.svg?style=flat-square)](https://vuejs.org/)
 [![Vuetify](https://img.shields.io/badge/Vuetify-3.x-blueviolet.svg?style=flat-square)](https://vuetifyjs.com/)
+![ESLint](https://img.shields.io/badge/code%20style-%40nuxt%2Feslint-brightgreen?logo=eslint)
 
 Frontend source code for RedditWatch.com website.
 Built using Nuxt with TypeScript and Vuetify.
