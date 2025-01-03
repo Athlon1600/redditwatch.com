@@ -8,6 +8,7 @@
 [![Vuetify](https://img.shields.io/badge/Vuetify-3.x-blueviolet.svg?style=flat-square)](https://vuetifyjs.com/)
 ![ESLint](https://img.shields.io/badge/code%20style-%40nuxt%2Feslint-brightgreen?logo=eslint)
 
+[![Known Vulnerabilities](https://snyk.io/test/github/Athlon1600/redditwatch.com/badge.svg?targetFile=package.json)](https://snyk.io/test/github/Athlon1600/redditwatch.com?targetFile=package.json)
 ![Lint Status](https://github.com/Athlon1600/redditwatch.com/actions/workflows/lint.yml/badge.svg)
 
 Frontend source code for RedditWatch.com website.
