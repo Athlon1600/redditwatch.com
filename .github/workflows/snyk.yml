@@ -3,9 +3,9 @@ name: Snyk
 on:
   workflow_dispatch:
 
-  # runs each Monday at 9:00 UTC
+  # runs each Monday at 9:00 Central Time
   schedule:
-    - cron: "0 9 * * 1"
+    - cron: "0 15 * * 1"
 
 jobs:
   security:
