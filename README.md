@@ -9,6 +9,7 @@
 ![ESLint](https://img.shields.io/badge/code%20style-%40nuxt%2Feslint-brightgreen?logo=eslint)
 
 [![Known Vulnerabilities](https://snyk.io/test/github/Athlon1600/redditwatch.com/badge.svg?targetFile=package.json)](https://snyk.io/test/github/Athlon1600/redditwatch.com?targetFile=package.json)
+![Build Status](https://img.shields.io/github/actions/workflow/status/Athlon1600/redditwatch.com/build.yml?label=Build%20Status&logo=github&color=brightgreen)
 ![Lint Status](https://github.com/Athlon1600/redditwatch.com/actions/workflows/lint.yml/badge.svg)
 
 Frontend source code for RedditWatch.com website.
