@@ -12,6 +12,9 @@ export default defineNuxtConfig({
     plugins: [
         '~/plugins/auth.ts', // Ensure this plugin is registered first
     ],
+    typescript: {
+        typeCheck: false // must run manually npm run typecheck
+    },
     ssr: false, // ssr: false is equivalent to target: 'static' in nuxt 3
     compatibilityDate: '2024-11-01',
     devtools: {enabled: true},

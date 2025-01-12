@@ -11,7 +11,11 @@
     "start": "nuxt start",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "tests:unit": "vitest run tests/unit",
+    "tests:integration": "vitest run tests/integration --passWithNoTests",
+    "tests:e2e": "vitest run tests/e2e",
+    "tests": "npm run tests:unit && npm run tests:integration && npm run tests:e2e"
   },
   "dependencies": {
     "@mdi/font": "^7.4.47",
