@@ -9,7 +9,7 @@
 ![ESLint](https://img.shields.io/badge/code%20style-%40nuxt%2Feslint-brightgreen?logo=eslint)
 [![Known Vulnerabilities](https://snyk.io/test/github/Athlon1600/redditwatch.com/badge.svg?targetFile=package.json)](https://snyk.io/test/github/Athlon1600/redditwatch.com?targetFile=package.json)
 
-[![Snyk](https://github.com/Athlon1600/redditwatch.com/actions/workflows/snyk.yml/badge.svg)](https://github.com/Athlon1600/redditwatch.com/actions/workflows/snyk.yml)
+[![Security](https://github.com/Athlon1600/redditwatch.com/actions/workflows/security.yml/badge.svg)](https://github.com/Athlon1600/redditwatch.com/actions/workflows/security.yml)
 [![Build](https://github.com/Athlon1600/redditwatch.com/actions/workflows/build.yml/badge.svg)](https://github.com/Athlon1600/redditwatch.com/actions/workflows/build.yml)
 [![Lint](https://github.com/Athlon1600/redditwatch.com/actions/workflows/lint.yml/badge.svg)](https://github.com/Athlon1600/redditwatch.com/actions/workflows/lint.yml)
 [![Tests](https://github.com/Athlon1600/redditwatch.com/actions/workflows/tests.yml/badge.svg)](https://github.com/Athlon1600/redditwatch.com/actions/workflows/tests.yml)
