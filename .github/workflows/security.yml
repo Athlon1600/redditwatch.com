@@ -1,11 +1,11 @@
-name: Snyk
+name: Security
 
 on:
   workflow_dispatch:
 
-  # runs each Monday at 9:00 Central Time
+  # runs each Monday at 8 AM Central Time
   schedule:
-    - cron: "0 15 * * 1"
+    - cron: "0 14 * * 1"
 
 jobs:
   security:
@@ -13,6 +13,9 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+
+      - name: Run npm audit
+        run: npm audit --audit-level=high
 
       - name: Run Snyk to check for vulnerabilities
         uses: snyk/actions/node@master
