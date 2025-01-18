@@ -12,7 +12,7 @@
             it up for anyone to use within reasonable limits.
         </p>
 
-        <h2 class="mb-3">Why?</h2>
+        <h2 class="my-3">Why?</h2>
 
         <p>
             One use of this is to filter down <strong>Reddit</strong> discussions to a few specific topics that you are
@@ -52,9 +52,15 @@
 
         <hr class="my-4">
 
-        <h2 class="mt-5">To-do list...</h2>
+        <h2 class="my-2">Old Version</h2>
 
-        <ul>
+        <p>
+            Legacy version of this app can still be accessed at - <a href="https://old.redditwatch.com">old.redditwatch.com</a>
+        </p>
+
+        <h2 class="my-3">To-do list...</h2>
+
+        <ul class="ml-5">
             <li>Better design...</li>
             <li>Improved support across devices - it's not too bad at the moment, but the app still looks much better on
                 desktop than mobile.

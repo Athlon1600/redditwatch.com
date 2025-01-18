@@ -15,7 +15,7 @@ export default defineNuxtConfig({
     typescript: {
         typeCheck: false // must run manually npm run typecheck
     },
-    ssr: false, // ssr: false is equivalent to target: 'static' in nuxt 3
+    ssr: true, // ssr: true is equivalent to target: 'static' in nuxt 3
     compatibilityDate: '2024-11-01',
     devtools: {enabled: true},
     css: ['~/assets/global.css'],

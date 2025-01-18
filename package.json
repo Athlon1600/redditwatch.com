@@ -8,6 +8,7 @@
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
+    "clean": "rimraf dist",
     "start": "nuxt start",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
@@ -15,7 +16,10 @@
     "tests:unit": "vitest run tests/unit",
     "tests:integration": "vitest run tests/integration --passWithNoTests",
     "tests:e2e": "vitest run tests/e2e",
-    "tests": "npm run tests:unit && npm run tests:integration && npm run tests:e2e"
+    "tests": "npm run tests:unit && npm run tests:integration && npm run tests:e2e",
+    "sync": "aws s3 sync ./dist s3://reddit.proxynova.com --acl public-read --storage-class STANDARD",
+    "invalidate": "aws cloudfront create-invalidation --profile default --distribution-id E3L9F6ALVRMOX4 --paths \"/*\" ",
+    "deploy": "npm run sync && npm run invalidate"
   },
   "dependencies": {
     "@mdi/font": "^7.4.47",
@@ -34,6 +38,7 @@
     "eslint": "^9.17.0",
     "happy-dom": "^15.11.7",
     "playwright-core": "^1.49.1",
+    "rimraf": "^6.0.1",
     "typescript": "^5.7.3",
     "vite-plugin-vuetify": "^2.0.4",
     "vitest": "^2.1.8",
